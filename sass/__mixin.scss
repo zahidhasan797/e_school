@@ -1,0 +1,9 @@
+
+@mixin radius($value) {
+	border-radius:$value
+}
+
+@mixin shadow($X, $Y, $blur){
+ -webkit-box-shadow: $X $Y $blur #0000001a;
+  box-shadow: $X $Y $blur #0000001a;
+  }

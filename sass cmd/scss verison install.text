@@ -1,0 +1,7 @@
+C:\Users\Jahid>e:
+
+E:\>cd shikbea_shobai
+
+E:\shikbea_shobai>cd e school
+
+E:\shikbea_shobai\e school> sass --watch sass/style.scss:css/style.css

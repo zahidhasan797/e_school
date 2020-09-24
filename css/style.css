@@ -1,0 +1,247 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;700;900&display=swap");
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #000000;
+  line-height: 1.6; }
+
+header .navbar-light .navbar-nav li .nav-link, .btn-custom, .book-section .book:hover, footer ul li a:hover {
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease; }
+
+header .navbar-light .navbar-nav li .nav-link, .btn-custom {
+  font-size: 19px;
+  letter-spacing: 1px;
+  border-radius: 30px;
+  padding: 6px 25px; }
+
+header {
+  background-color: #F0FFF0; }
+  header .navbar-brand img {
+    width: 200px; }
+  header .navbar-light .navbar-nav li .nav-link {
+    color: #000000; }
+    header .navbar-light .navbar-nav li .nav-link:hover {
+      background-color: #21B573;
+      color: #fff; }
+  header .navbar-light .navbar-nav li:last-child .nav-link .nav-link {
+    background-color: #21B573;
+    color: #fff; }
+  header h4 {
+    color: red;
+    font-size: 20px; }
+  header h1 {
+    color: #000000;
+    font-size: 70px;
+    font-weight: 600;
+    line-height: 1.1; }
+    header h1 span {
+      color: #21B573; }
+  header p {
+    color: #000000;
+    font-size: 18px;
+    opacity: 0.7;
+    line-height: 1.8; }
+
+.btn-custom {
+  background-color: #21B573;
+  color: #fff;
+  border: 1px solid #21B573; }
+  .btn-custom:hover {
+    background-color: transparent;
+    color: #21B573; }
+
+/*###################book-section start##########################*/
+.book-section {
+  padding: 40px 0; }
+  .book-section .book {
+    background-color: #F0FFF0;
+    text-align: center;
+    padding: 35px 20px;
+    border-radius: 10px; }
+    .book-section .book:hover {
+      background-color: #fff !important;
+      -webkit-box-shadow: 0 20px 40px #0000001a;
+      box-shadow: 0 20px 40px #0000001a; }
+    .book-section .book img {
+      height: 80px; }
+    .book-section .book h2 {
+      font-size: 26;
+      font-weight: 700;
+      margin: 10px 0 0; }
+    .book-section .book p {
+      color: #000000;
+      font-size: 18px;
+      opacity: 0.7;
+      line-height: 1.8;
+      margin-bottom: 0; }
+
+/*###################book-section end##########################*/
+.heading {
+  text-align: center;
+  padding: 50px 0; }
+  .heading h1 {
+    font-size: 40px;
+    font-weight: 900;
+    letter-spacing: 1px; }
+
+/*-- -----------------courses section  start---------------------*/
+.courses-section .course {
+  border-radius: 10px;
+  -webkit-box-shadow: 0 20px 40px #0000001a;
+  box-shadow: 0 20px 40px #0000001a;
+  border: 0; }
+  .courses-section .course .card-body img {
+    border-radius: 10px; }
+  .courses-section .course .card-body .card-title {
+    font-size: 26px;
+    margin: 10px 0 0; }
+  .courses-section .course .card-body .card-text {
+    color: #000000;
+    font-size: 18px;
+    opacity: 0.7;
+    line-height: 1.8;
+    margin-bottom: 10px; }
+  .courses-section .course .card-body .nav {
+    margin-top: 10px; }
+    .courses-section .course .card-body .nav li img {
+      width: 20px; }
+    .courses-section .course .card-body .nav li span {
+      font-size: 14px;
+      font-weight: 500;
+      align-items: center; }
+
+/*-- -----------------courses section end-----------------------*/
+/* -----------------testimonial section start-------------------*/
+.testimonial-section {
+  padding: 50px 0 !important; }
+  .testimonial-section p {
+    color: #000000;
+    font-size: 18px;
+    opacity: 0.7; }
+
+/* -----------------testimonial section end-------------------*/
+/* -----------------footer start-------------------*/
+footer {
+  background-color: #282531;
+  color: #fff;
+  padding: 50px 0 0; }
+  footer p {
+    color: #fff;
+    font-size: 18px; }
+  footer ul li a {
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    background-color: transparent;
+    display: block;
+    padding: 2px 0; }
+    footer ul li a:hover {
+      opacity: 0.8;
+      text-decoration: none;
+      color: #fff; }
+  footer .copyight {
+    padding: 30px;
+    text-align: center; }
+    footer .copyight p {
+      color: #fff;
+      font-size: 15px;
+      margin-bottom: 0; }
+    footer .copyight a {
+      color: #21B573;
+      font-weight: 800;
+      text-decoration: none; }
+
+/* -----------------footer end---------------------*/
+/*----------------start responsive journey start*-----------------------*/
+@media (max-width: 1199px) {
+  header h1 {
+    font-size: 55px; }
+
+  .book-section .book h2 {
+    font-size: 22px; }
+
+  .book-section .book p {
+    font-size: 16px; }
+
+  .courses.btn-custom {
+    font-size: 15px;
+    padding: 4px 20px; } }
+@media (max-width: 991px) {
+  .navbar-nav {
+    -ms-flex-direction: row;
+    flex-direction: row;
+    justify-content: center; }
+
+  header h1 {
+    font-size: 44px; }
+
+  header p {
+    font-size: 14px; }
+
+  .book-section .book img {
+    height: 60px; }
+
+  .book-section .book h2 {
+    font-size: 15px; }
+
+  .book-section .book p {
+    font-size: 15px; }
+
+  .book {
+    margin-bottom: 30px; }
+
+  .courses.card-body {
+    padding: 10px; }
+
+  .courses-section .course .card-body .card-title {
+    font-size: 18px; }
+
+  .courses-section .course .card-body .nav li:last-child {
+    display: none; } }
+@media (max-width: 767px) {
+  header .navbar-light .navbar-nav li .nav-link, .btn-custom {
+    font-size: 16px; }
+
+  header .col-md img {
+    max-width: 350px;
+    margin-top: 30px; }
+
+  header .row {
+    text-align: center; }
+
+  .courses-section .course {
+    margin-bottom: 30px; }
+
+  .testimonial-section p {
+    font-size: 14px; } }
+@media (max-width: 575px) {
+  .navbar-nav {
+    -ms-flex-direction: column;
+    flex-direction: column;
+    align-items: center; }
+
+  .courses-section .course .card-body .card-title {
+    font-size: 26px; }
+
+  .courses-section .course .card-body .nav li:last-child {
+    display: block; }
+
+  .testimonial-section p {
+    font-size: 13px; }
+
+  footer {
+    text-align: center; }
+
+  footer p {
+    font-size: 16px; }
+
+  footer h3 {
+    font-size: 20px; }
+
+  footer ul li a {
+    font-size: 14px; } }
+/*----------------start responsive journey end*-----------------------*/
+
+/*# sourceMappingURL=style.css.map */
